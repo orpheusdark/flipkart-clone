@@ -10,6 +10,13 @@ body {
   color: #212121;
 }
 
+.sticky-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+
 /* top bar (Flipkart, Travel, Grocery) */
 .top-bar {
   display: flex;
